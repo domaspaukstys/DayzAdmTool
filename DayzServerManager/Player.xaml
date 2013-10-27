@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="DayzServerManager.Player"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Width="Auto" Height="Auto" Background="Crimson" MaxWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="{Binding Classname}" Grid.ColumnSpan="4" IsHitTestVisible="True" MouseDown="Click" Focusable="True" LostFocus="FocusLost"/>
+        <ListBox ItemsSource="{Binding Inventory}"  Visibility="{Binding ShowDetails}" Grid.Row="1"/>
+    </Grid>
+</UserControl>
