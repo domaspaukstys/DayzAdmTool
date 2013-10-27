@@ -1,0 +1,5 @@
+C:\Users\ACER\Documents\Visual Studio 2012\Projects\DayzServerManager\BattleNET\bin\Debug\BattleNET.dll
+C:\Users\ACER\Documents\Visual Studio 2012\Projects\DayzServerManager\BattleNET\bin\Debug\BattleNET.pdb
+C:\Users\ACER\Documents\Visual Studio 2012\Projects\DayzServerManager\BattleNET\obj\Debug\BattleNET.csprojResolveAssemblyReference.cache
+C:\Users\ACER\Documents\Visual Studio 2012\Projects\DayzServerManager\BattleNET\obj\Debug\BattleNET.dll
+C:\Users\ACER\Documents\Visual Studio 2012\Projects\DayzServerManager\BattleNET\obj\Debug\BattleNET.pdb
